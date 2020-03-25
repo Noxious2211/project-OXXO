@@ -1,0 +1,5 @@
+git status
+git add -A
+git commit -m " "
+git remote add origin https://github.com/Noxious2211/Noxious2211.git
+git push origin master
