@@ -1702,7 +1702,7 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .main .main__logo-mobile {
+  .main .main__menu-mobile-wr {
     display: block;
   }
   .main nav {
