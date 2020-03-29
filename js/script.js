@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 window.onscroll = function fixedHeader() {
    let header = document.querySelector('.second__menu');
-   if (window.pageYOffset > 850 && window.innerWidth > 768) {
+   if (window.pageYOffset > 850 && window.innerWidth > 767) {
       header.classList.add('second__menu-fixed')
    } else {
       header.classList.remove('second__menu-fixed')
