@@ -7,10 +7,10 @@ $(document).ready(function () {
 
 window.onscroll = function fixedHeader() {
    let header = document.querySelector('.second__menu');
-   if (window.pageYOffset > 850 && window.innerWidth > 767) {
-      header.classList.add('second__menu-fixed')
+   if (window.pageYOffset > 850 && window.innerWidth > 769) {
+      header.classList.add('menu-fixed')
    } else {
-      header.classList.remove('second__menu-fixed')
+      header.classList.remove('menu-fixed')
    }
 };
 
@@ -27,6 +27,14 @@ $(document).ready(function () {
       dots: false
    });
 });
+
+$(document).ready(function () {
+   $('.galery__slider-mobile').slick({
+      arrows: true,
+      dots: false
+   });
+});
+
 
 $(document).ready(function () {
    $('.clients-logo__slider').slick({
