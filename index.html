@@ -24,7 +24,7 @@
                         <div class="menu-icon"></div>
                     </div>
                 </div>
-                <div class="main__mobile-nav">
+                <!-- <div class="main__mobile-nav">
                     <ul>
                         <li><a href="">ABOUT US</a></li>
                         <li><a href="">WHO WE ARE?</a></li>
@@ -32,17 +32,20 @@
                         <li><a href="">OUR TEAM</a></li>
                         <li><a href="">SERVICES</a></li>
                         <li><a href="">CLIENTS</a></li>
-                        <li><a href="">HOW WE D</a></li>
+                        <li><a href="">HOW WE DO</a></li>
                         <li><a href="">CONTACT US</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <nav class="menu">
                     <ul class="menu__list">
                         <li><a class="menu__link" href="#about-us">ABOUT US</a></li>
                         <li><a class="menu__link" href="#amazing">WHO WE ARE?</a></li>
                         <li><a class="menu__link" href="#galery">PORTFOLIO</a></li>
                         <li><a class="menu__link" href="#team">OUR TEAM</a></li>
-                        <li><a href="#main"><img class="logo-header" src="./media/logo-header.png" alt="logo"></a></li>
+                        <li>
+                            <a href="#main"><img class="logo-header" src="./media/logo-header.png" alt="logo"></a>
+                            <a href=""><img class="logo-header-fixed" src="./media/logo-second-menu.png" alt=""></a>
+                        </li>
                         <li><a class="menu__link" href="#buttom">SERVICES</a>
                             <div class="menu__sub-menu-wr">
                                 <ul class="sub-menu__list">
@@ -93,7 +96,7 @@
                         </ul>
                     </div>
                     <div class="main__slider-button1">
-                        <a class="but" href="#">MORE ABOUT US</a>
+                        <a class="but" href="#about-us">MORE ABOUT US</a>
                     </div>
                 </div>
             </div>
@@ -112,40 +115,6 @@
 
     <section class="second" id="about-us">
         <div class="container">
-            <nav class="second__menu">
-                <ul class="second__menu-list">
-                    <li><a class="second__menu-link" href="#about-us">ABOUT US</a></li>
-                    <li><a class="second__menu-link" href="#amazing">WHO WE ARE?</a></li>
-                    <li><a class="second__menu-link" href="#galery">PORTFOLIO</a></li>
-                    <li><a class="second__menu-link" href="#team">OUR TEAM</a></li>
-                    <li><a href="#main"><img class="logo-second" src="./media/logo-second-menu.png" alt="logo"></a></li>
-                    <li><a class="second__menu-link" href="#buttom">SERVICES</a>
-                        <div class="second__sub-menu-wr">
-                            <ul class="second__sub-menu-list">
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a>
-                                    <div class="second__sub-sub-menu-wr">
-                                        <ul class="second__sub-sub-menu-list">
-                                            <li><a href="#" class="second__sub-sub-menu-link">Lorem ipsum dolor</a></li>
-                                            <li><a href="#" class="second__sub-sub-menu-link">Lorem ipsum dolor</a></li>
-                                            <li><a href="#" class="second__sub-sub-menu-link">Lorem ipsum dolor</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                                <li><a class="second__sub-menu-link" href="#">Lorem ipsum dolor</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a class="second__menu-link" href="#clients">CLIENTS</a></li>
-                    <li><a class="second__menu-link" href="#buy-oxxo">HOW WE DO?</a></li>
-                    <li><a class="second__menu-link" href="#footer">CONTACT US</a></li>
-                </ul>
-            </nav>
             <div class="second__center-content">
                 <h2>ABOUT US</h2>
                 <div class="line"></div>
@@ -178,8 +147,8 @@
                         Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
                     </p>
                     <div class="second__content-right-buttons">
-                        <div class="second__button"><a href="#">MEET US NOW</a></div>
-                        <div class="second__button"><a href="#">CONTAKT US</a></div>
+                        <div class="second__button"><a href="#footer">MEET US NOW</a></div>
+                        <div class="second__button"><a href="#footer">CONTAKT US</a></div>
                     </div>
                 </div>
             </div>
@@ -337,29 +306,108 @@
             <div class="galery__slider-mobile">
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img1-portfolio.jpg" alt="red car photo">
+                    <div class="galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img1-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img2-portfolio.jpg" alt="glass of wine photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img2-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img3-portfolio.jpg" alt="red leather sofa photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img3-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img4-portfolio.jpg" alt="a chair photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img4-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img5-portfolio.jpg" alt="cocktails photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img5-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img6-portfolio.jpg" alt="dessert photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img6-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img7-portfolio.jpg" alt="bicycles photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img7-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="galery__slider-mobile-img">
                     <img src="./media/img8-portfolio.jpg" alt="wine bottles photo">
+                    <div class=" galery__hover-img">
+                        <div class="galery-hover-icon">
+                            <a class="galery-link1" href="./media/img8-portfolio.jpg" target="_blank"></a>
+                            <a class="galery-link2" href="#"></a>
+                        </div>
+                        <div class="galery-hover-footer">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>PHOTOGRAFY</p>
+                        </div>
+                    </div>
                 </div>
-
             </div>
             <div class="galery__title1 title-galery">
                 <img src="./media/img1-portfolio.jpg" alt="red car photo">
@@ -386,7 +434,6 @@
                         <p>PHOTOGRAFY</p>
                     </div>
                 </div>
-
             </div>
             <div class=" galery__title3 title-galery">
                 <img src="./media/img3-portfolio.jpg" alt="red leather sofa photo">
@@ -400,7 +447,6 @@
                         <p>PHOTOGRAFY</p>
                     </div>
                 </div>
-
             </div>
             <div class="galery__title4 title-galery">
                 <img src="./media/img4-portfolio.jpg" alt="a chair photo">
@@ -427,7 +473,6 @@
                         <p>PHOTOGRAFY</p>
                     </div>
                 </div>
-
             </div>
             <div class="galery__title6 title-galery">
                 <img src="./media/img6-portfolio.jpg" alt="dessert photo">
@@ -441,7 +486,6 @@
                         <p>PHOTOGRAFY</p>
                     </div>
                 </div>
-
             </div>
             <div class="galery__title7 title-galery">
                 <img src="./media/img7-portfolio.jpg" alt="bicycles photo">
@@ -455,7 +499,6 @@
                         <p>PHOTOGRAFY</p>
                     </div>
                 </div>
-
             </div>
             <div class="galery__title8 title-galery">
                 <img src="./media/img8-portfolio.jpg" alt="wine bottles photo">
@@ -469,7 +512,6 @@
                         <p>PHOTOGRAFY</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -529,8 +571,9 @@
     <section class="clients-logo" id="clients-logo">
 
         <div class="clients-logo__slider">
-            <div class="clients-logo__item-wr"><a href=""><img src="./media/clients-logo-1.jpg"
-                        alt="graphicriver logo"></a></div>
+            <div class="clients-logo__item"><a href=""><img src="./media/clients-logo-1.jpg"
+                        alt="graphicriver logo"></a>
+            </div>
             <div class="clients-logo__item"><a href=""><img src="./media/clients-logo-2.jpg" alt="videohive logo"></a>
             </div>
             <div class="clients-logo__item"><a href=""><img src="./media/clients-logo-3.jpg" alt="themeforest logo"></a>

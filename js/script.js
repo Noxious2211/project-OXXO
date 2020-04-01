@@ -6,8 +6,8 @@ $(document).ready(function () {
 });
 
 window.onscroll = function fixedHeader() {
-   let header = document.querySelector('.second__menu');
-   if (window.pageYOffset > 850 && window.innerWidth > 769) {
+   let header = document.querySelector('.menu');
+   if (window.pageYOffset > 850 && window.innerWidth > 960) {
       header.classList.add('menu-fixed')
    } else {
       header.classList.remove('menu-fixed')
@@ -42,8 +42,58 @@ $(document).ready(function () {
       slidesToScroll: 1,
       arrows: true,
       dots: false,
-      autoplay: true,
-      autoplaySpeed: 2000,
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+      responsive: [{
+         breakpoint: 1300,
+         settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false
+         }
+      }, {
+         breakpoint: 1050,
+         settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false
+         }
+      }, {
+         breakpoint: 840,
+         settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false
+         }
+      }, {
+         breakpoint: 615,
+         settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false
+         }
+      }, {
+         breakpoint: 414,
+         settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false
+         }
+      },
+      {
+         // breakpoint: 320,
+         settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: false
+         }
+      }]
    });
 });
 
