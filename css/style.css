@@ -1799,13 +1799,6 @@
     margin: 0 auto;
   }
 
-  .clients-logo .clients-logo__slider .slick-prev {
-    width: 30px;
-  }
-  .clients-logo .clients-logo__slider .slick-next {
-    width: 30px;
-  }
-
   .footer .footer__title-icon a img {
     width: 30px;
   }
@@ -1816,7 +1809,7 @@
 }
 @media screen and (max-width: 414px) {
   .second {
-    padding-bottom: 120px;
+    padding-bottom: 160px;
   }
   .second .second__content-right-buttons {
     margin-top: 25px;
@@ -1851,6 +1844,10 @@
   .clients .clients__slider .slick-next {
     top: 105%;
     right: 30%;
+  }
+
+  .buy-oxxo .buy-oxxo__buttons a {
+    font-size: 13px;
   }
 
   .responsive .responsive__content .responsive__right-content .responsive__right-content-text {

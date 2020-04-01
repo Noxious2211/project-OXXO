@@ -77,7 +77,7 @@ $(document).ready(function () {
             dots: false
          }
       }, {
-         breakpoint: 414,
+         breakpoint: 485,
          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

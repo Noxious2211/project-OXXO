@@ -1259,10 +1259,6 @@
       .clients-logo__item {
          display: flex;
          justify-content: center;
-         // margin: 0 auto;
-         // padding: 20px;
-         // width: 157px;
-         // margin-right: 10px;
       }   
    }
       .slick-next {
@@ -1832,15 +1828,15 @@
       }
    }
 }
-.clients-logo {
-   .clients-logo__slider {
-   .slick-prev {
-      width: 30px;   }
-   .slick-next {
-      width: 30px;;
-      }
-   }
-}
+// .clients-logo {
+//    .clients-logo__slider {
+//    .slick-prev {
+//       width: 30px;   }
+//    .slick-next {
+//       width: 30px;;
+//       }
+//    }
+// }
 .footer {
    .footer__title-icon {
       a {
@@ -1858,7 +1854,7 @@
 
 @media screen and (max-width: 414px) {
 .second {
-   padding-bottom: 120px;
+   padding-bottom: 160px;
    .second__content-right-buttons {
       margin-top: 25px;
       .second__button {
@@ -1901,7 +1897,11 @@
       }
    }
 }
-
+.buy-oxxo{
+    .buy-oxxo__buttons {
+        a {font-size: 13px;}
+      }
+}
 .responsive {
    .responsive__content {
       .responsive__right-content {
@@ -1911,7 +1911,6 @@
       }
    }
 }
-
 .footer {
    .container {
       .footer__form-btn {
