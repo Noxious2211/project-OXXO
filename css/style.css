@@ -15,6 +15,20 @@
   justify-content: center;
   min-height: 130px;
 }
+.main header .main__mobile-nav a::before {
+  content: ">";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 15;
+  opacity: 0;
+}
+.main header .main__mobile-nav a:hover::before {
+  opacity: 1;
+}
 .main header .menu-fixed {
   position: fixed;
   top: 0;
@@ -46,40 +60,46 @@
   justify-content: center;
   width: 100%;
   height: 10%;
-  background-color: rgba(150, 150, 150, 0.8);
+  background-color: #969696;
   position: fixed;
   top: 10px;
   z-index: 25;
+}
+.main header .main__menu-mobile-wr .main__mobile-nav.main__mobile-nav-active {
+  transform: translate(-100%);
+}
+.main header .main__menu-mobile-wr .main__mobile-nav {
+  display: block;
+  text-align: center;
+  width: 200px;
+  padding: 30px 20px 0;
+  position: absolute;
+  top: 73px;
+  right: 0;
+  background-color: #969696;
+  z-index: 15;
+  transform: translate(100%);
+}
+.main header .main__menu-mobile-wr .main__mobile-nav li {
+  list-style-type: none;
+  margin-bottom: 30px;
+  position: relative;
+}
+.main header .main__menu-mobile-wr .main__mobile-nav a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  font-family: "opensans-bold";
+  font-size: 22px;
+}
+.main header .main__menu-mobile-wr .main__mobile-nav a:hover {
+  color: #ff7200;
 }
 .main header .main__logo-mobile img {
   width: 100px;
   padding: 10px;
   border: 1px solid #fff;
-}
-.main header .main__mobile-nav {
-  display: block;
-  text-align: left;
-  width: 200px;
-  height: 100%;
-  padding: 100px 20px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: rgba(150, 150, 150, 0.8);
-  z-index: 15;
-}
-.main header .main__mobile-nav li {
-  list-style-type: none;
-  margin-bottom: 30px;
-}
-.main header .main__mobile-nav a {
-  text-decoration: none;
-  color: #dbdbdb;
-  font-family: "opensans-bold";
-  font-size: 22px;
-}
-.main header .main__mobile-nav a:hover {
-  color: #fff;
 }
 .main header .menu-icon-wrapper {
   width: 30px;

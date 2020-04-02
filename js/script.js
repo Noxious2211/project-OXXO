@@ -121,6 +121,9 @@ for (i = 0; i < acc.length; i++) {
    });
 }
 
-document.querySelector('.menu-icon-wrapper').onclick = function () {
+document.querySelector('.menu-icon-wrapper').onclick = function (e) {
+   e.preventDefault();
    document.querySelector('.menu-icon').classList.toggle('menu-icon-active');
+   document.querySelector('.main__mobile-nav').classList.toggle('main__mobile-nav-active');
+
 }
