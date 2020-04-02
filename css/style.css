@@ -75,7 +75,7 @@
   padding: 30px 20px 0;
   position: absolute;
   top: 73px;
-  right: 0;
+  right: -240px;
   background-color: #969696;
   z-index: 15;
   transform: translate(100%);
