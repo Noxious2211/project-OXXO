@@ -84,15 +84,6 @@ $(document).ready(function () {
             arrows: true,
             dots: false
          }
-      },
-      {
-         // breakpoint: 320,
-         settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            dots: false
-         }
       }]
    });
 });
@@ -121,9 +112,84 @@ for (i = 0; i < acc.length; i++) {
    });
 }
 
-document.querySelector('.menu-icon-wrapper').onclick = function (e) {
-   e.preventDefault();
+document.querySelector('.menu-icon-wrapper').onclick = function () {
    document.querySelector('.menu-icon').classList.toggle('menu-icon-active');
    document.querySelector('.main__mobile-nav').classList.toggle('main__mobile-nav-active');
-
 }
+
+$(document).ready(function () {
+   $('.menu__link-about').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#about-us').position().top - 0 }, 1000);
+   });
+   $('.menu__link-amazing').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#amazing').position().top - 20 }, 1000);
+   });
+   $('.menu__link-galery').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#galery').position().top - 20 }, 1000);
+   });
+   $('.menu__link-team').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#team').position().top - 20 }, 1000);
+   });
+   $('.menu__link-buttom').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#buttom').position().top - 20 }, 1000);
+   });
+   $('.menu__link-clients').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#clients').position().top - 20 }, 1000);
+   });
+   $('.menu__link-buy').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#buy-oxxo').position().top - 20 }, 1000);
+   });
+   $('.menu__link-contact').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#footer').position().top - 20 }, 1000);
+   });
+   $('.logo-header-fixed').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#main').position().top - 20 }, 1000);
+   });
+
+   $('.mobile-logo').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#main').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-about').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#about-us').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-amazing').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#amazing').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-galery').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#galery').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-team').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#team').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-buttom').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#buttom').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-clients').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#clients').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-buy').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#buy-oxxo').position().top - 20 }, 1000);
+   });
+   $('.mobile-link-footer').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#footer').position().top - 20 }, 1000);
+   });
+
+});
