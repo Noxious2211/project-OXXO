@@ -102,18 +102,6 @@
   transition: transform 0.5s ease-in;
   transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
 }
-.main header .main__menu-mobile-wr .main__mobile-nav a:nth-child(1) {
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-.main header .main__menu-mobile-wr .main__mobile-nav a:nth-child(2) {
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-.main header .main__menu-mobile-wr .main__mobile-nav a:nth-child(3) {
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-}
 .main header .main__menu-mobile-wr .main__mobile-nav a {
   display: inline-block;
   position: relative;
