@@ -150,6 +150,11 @@ $(document).ready(function () {
       $(this).addClass('active');
       $('html, body').animate({ scrollTop: $('#footer').position().top - 20 }, 1000);
    });
+   $('.but').click(function () {
+      $(this).addClass('active');
+      $('html, body').animate({ scrollTop: $('#about-us').position().top - 20 }, 1000);
+   });
+
    $('.logo-header-fixed').click(function () {
       $(this).addClass('active');
       $('html, body').animate({ scrollTop: $('#main').position().top - 20 }, 1000);
@@ -193,3 +198,4 @@ $(document).ready(function () {
    });
 
 });
+
